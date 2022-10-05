@@ -8,6 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* index.js라는 파일을 찾고 이곳을 실행시킴
+    그렇다면 <App /> 이라는 실제 내용을 어디 있을까? App.js 파일에 있다 */}
   </React.StrictMode>
 );
 
